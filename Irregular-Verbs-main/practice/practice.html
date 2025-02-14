@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irregular Verbs</title>
+    <link rel="stylesheet" href="./practice.css">
+    <link rel="stylesheet" href="../home/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="../home/home.html">.IRREULAR VERBS</a></div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="../home/home.html">home</a></li>
+                <li><a href="#"  class="acc">practice</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-resp">
+            <ul>
+                <li><a href="../home/home.html">home</a></li>
+                <li><a href="#">practice</a></li>
+            </ul>
+        </div>
+
+    <!-- From Uiverse.io by JulanDeAlb --> 
+<label class="hamburger">
+    <input type="checkbox" id="menu-check">
+    <svg viewBox="0 0 32 32">
+      <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+      <path class="line" d="M7 16 27 16"></path>
+    </svg>
+  </label>
+
+    </header>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Base Verb</th>
+                    <th>Past Tense</th>
+                    <th>Past Participle</th>
+                    <th>French</th>
+                </tr>
+            </thead>
+            <tbody id="verbsTable">
+                <tr>
+                    <th id = "verb"></th>
+                    <th><input type="text" id="simple" class="inp" placeholder="--------------"  autocomplete="off" required></th>
+                    <th><input type="text" id="participle" class="inp" placeholder="------------------" autocomplete="off" required></th>
+                    <th><input type="text" id="french" class="inp" placeholder="------------------" autocomplete="off" required></th>
+                </tr>
+            </tbody>
+        </table>
+        <button id="submit" class="submit">Submit</button>
+        <button id="giveUp" class="give">show result</button>
+        <button onclick="location.reload()" class="next" id="next">Next</button>
+
+
+        <div class="info"><span class="resultat"></span></div>
+    </div>
+
+    
+    
+   <script src="./practice.js"></script>
+   <script src="../home/home.js"></script>
+</body>
+</html>
