@@ -46,11 +46,11 @@ fetch("VERBS.json")
             });
 
             if (allCorrect) {
-                result.textContent = '✅ Well done!';
+                result.textContent = ' :) Well done!';
                 result.style.color = 'green';
                 next.classList.add('next-active');
             } else {
-                result.textContent = '❌ Incorrect!';
+                result.textContent = ':( Incorrect!';
                 result.style.color = 'red';
             }
         });
